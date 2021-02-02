@@ -54,5 +54,5 @@ dependencies {
     // export a
     implementation 'com.github.jianglinair:expa:0.3'
     // export b
-    implementation 'com.github.jianglinair:expb:0.3'
+    implementation 'com.github.jianglinair:expb:0.5'
 }
