@@ -5,7 +5,7 @@ import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.jianglin.common.BaseActivity;
+import com.jianglin.libcommon.BaseActivity;
 import com.jianglin.libexpa.BusaPath;
 import com.jianglin.libexpb.BusbPath;
 
