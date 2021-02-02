@@ -52,7 +52,7 @@ dependencies {
     implementation 'com.github.jianglinair:common2:0.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.5.1'
     // export a
-    implementation 'com.github.jianglinair:expa:0.1'
+    implementation 'com.github.jianglinair:expa:0.3'
     // export b
-    implementation 'com.github.jianglinair:expb:0.2'
+    implementation 'com.github.jianglinair:expb:0.3'
 }
