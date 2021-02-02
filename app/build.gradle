@@ -48,8 +48,12 @@ dependencies {
     // common
     implementation 'com.github.jianglinair:ModuleCommon:0.6.1'
     annotationProcessor 'com.alibaba:arouter-compiler:1.5.1'
-    // expa
+    // export a
     implementation 'com.github.jianglinair:expa:0.1'
+    // export b
+    implementation 'com.github.jianglinair:expb:0.2'
+    // module b
+    implementation 'com.github.jianglinair:modb:0.1'
 
     implementation(project(':libbusa'))
 }

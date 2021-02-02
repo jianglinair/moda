@@ -1,10 +1,13 @@
 package com.jianglin.libbusa;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.alibaba.android.arouter.launcher.ARouter;
 import com.jianglin.common.BaseActivity;
 import com.jianglin.libexpa.BusaPath;
+import com.jianglin.libexpb.BusbPath;
 
 @Route(path = BusaPath.BUSA)
 public class BusaActivity extends BaseActivity {
@@ -19,5 +22,9 @@ public class BusaActivity extends BaseActivity {
     @Override
     protected String tag() {
         return TAG;
+    }
+
+    public void click(View view) {
+        ARouter.getInstance().build(BusbPath.BUSB).navigation(this);
     }
 }
